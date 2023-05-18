@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- main title text-->
+    <header>
+        <h1 id="titleQuiz">Let's Get Quizzical</h1>
+    </header>
+
+    <!-- game description text-->
+    <main>
+        <p>Enter username to play the game!<br>
+        Answer the 20 Questions!<br>
+        Good luck!</p>
+    </main>
+    
+    <!-- sumbit name form that triggers startGame function-->
+    <form onsubmit="startGame(event)">
+        <input id="inputBox" type="text" placeholder="Enter your name" required> 
+        <button id="inputButton" type="submit">Start</button>   
+      </form>
+      
+   
+
+<script src="main.js"></script>
+
+</body>
+</html>
